@@ -7,7 +7,7 @@ const NewCost = (props) => {
             ...inputCostData,
             id: Math.random().toString()
         };
-        props.onAddCost(costData);
+        props.onAddCost(costData); 
     };
     return (
         <div className='new-cost'>
