@@ -1,4 +1,5 @@
-import Costs from "./components/Costs";
+import Costs from "./components/Costs/Costs";
+import NewCost from "./components/NewCost/NewCost";
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <h1>Start React App</h1>
+      <NewCost />
       <Costs costs={ costs }/>
      
     </div>
